@@ -1,0 +1,63 @@
+/* Reset body margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to top right, #ffe1f0, #f7c5d7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Message container */
+.message-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5rem;
+    color: #ff66a3;
+    margin-bottom: 20px;
+}
+
+/* Message content styling */
+.message {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Signature styling */
+.signature {
+    font-size: 1.3rem;
+    color: #ff66a3;
+    font-weight: bold;
+}
+
+/* Optional: Add a heart at the bottom of the message */
+.signature::before {
+    content: '💖';
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .message {
+        font-size: 1rem;
+    }
+}

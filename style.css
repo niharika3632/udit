@@ -26,14 +26,12 @@ body {
 /* Container */
 .container {
     background: #ffffffcc;
-    padding: 0.5rem 1rem;
-    border-radius: 30px;
+    /* padding: 0 0.5px; */
+    border-radius: 1px;
     text-align: center;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    /* box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1); */
+    /* z-index: 1; */
     animation: fadeIn 1.5s ease;
-    margin-bottom: 120px;
-    margin-top: 120px;
     /* space before footer */
 }
 
@@ -62,14 +60,13 @@ h1 {
     margin-bottom: 2rem;
 }
 
-/* Cake & Cupcakes */
 .dessert-table {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 30px;
-    margin-bottom: 2rem;
-    margin-top: 20px;
+    gap: 15px;
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
 }
 
 .cupcake {
@@ -92,7 +89,7 @@ h1 {
 .cake {
     position: relative;
     width: 120px;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .layer {
@@ -117,13 +114,13 @@ h1 {
 
 .candle {
     position: absolute;
-    top: -50px;
-    left: 50%;
+    top: -10px;
+    left: 45%;
     width: 14px;
-    height: 40px;
+    height: 30px;
     background: #fffacd;
     border-radius: 4px;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     box-shadow: 0 0 6px #fff8dc;
 }
 
@@ -135,7 +132,7 @@ h1 {
     height: 18px;
     background: orange;
     border-radius: 50% 50% 50% 0;
-    transform: translateX(-50%) rotate(45deg);
+    transform: rotate(45deg);
     box-shadow: 0 0 15px orange;
     animation: flameFlicker 1s infinite ease-in-out;
 }
@@ -190,7 +187,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-80%);
+    /* transform: translateX(-80%); */
     display: flex;
     gap: 20px;
     z-index: 0;
@@ -285,7 +282,7 @@ h1 {
     width: 2px;
     height: 20px;
     background: #555;
-    transform: translateX(-100%);
+    /* transform: translateX(-100%); */
 }
 
 .red {
